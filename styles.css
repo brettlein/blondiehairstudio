@@ -1,0 +1,312 @@
+/* Background */
+body {
+  margin: 0;
+  background:repeating-linear-gradient(90deg,#f5f5f5,#c4c1b8);
+}
+
+/* NAVBAR Logo Styling */
+.topnav a.logo {
+    position: relative;
+    bottom: 13px;
+    font-family: 'Righteous', cursive;
+    background: -webkit-linear-gradient(rgb(255, 0, 191), rgb(242, 66, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.topnav a.logo:hover {
+  color:rgb(139, 2, 121);
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+/*Remove bullets from navbar links */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Cont */
+.blondielink {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    height: 50px;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(43, 42, 42));
+    opacity: 0.8;
+    overflow: hidden;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 500px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    position: relative;
+    bottom: 5px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color:rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+/* MEDIA QUERIES
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {
+      height: 450px;
+      position: relative;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+  }
+  
+/* Homepage Logo Styling */
+.logomain {
+  font-family: 'Righteous', cursive;
+  background: rgb(255, 0, 191);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.logomain:hover {
+  cursor: default;
+}
+
+/* Button styling (homepage booking button) Can be used elsewhere */
+.button1 {
+  border: none;
+  border-radius: 6px;
+  background-color:rgb(255, 0, 191);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  transition-duration: 99ms;
+  transition-delay: 1ms;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.button1:hover {
+  background-color:rgb(156, 0, 117)
+}
+
+.button1:active {
+  background-color:rgb(94, 0, 70)
+}
+
+/* Button styling (homepage gallery & contact buttons) */
+.button2 {
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color:rgb(255, 0, 191);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  transition-duration: 99ms;
+  transition-delay: 1ms;
+  font-size: 20px;
+}
+
+.button2:hover {
+  background-color:rgb(156, 0, 117);
+  color: white;
+}
+
+.button2:active {
+  background-color:rgb(94, 0, 70)
+}
+
+.button3 {
+  border: 2px solid;
+  border-color: rgb(255, 0, 191);
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: none;
+  color: rgb(255, 0, 191);
+  position: relative;
+  top: 10px;
+  padding: 10px 15px;
+  transition-duration: 99ms;
+  transition-delay: 15ms;
+  font-size: 20px;
+}
+
+.button3:hover {
+  background-color:rgb(255, 0, 191);
+  color: white;
+}
+
+.button3:active {
+  background-color:rgb(94, 0, 70);
+  border-color: rgb(94, 0, 70);
+}
+
+/* h2 HomepageStyling */
+.h2hometext {
+  display: flex;
+  margin-top: -24px;
+  margin-bottom: 15px;
+  color: rgb(58, 58, 58);
+}
+
+/* h3 Homepage Styling */
+.h3hometext {
+  display: flex;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+}
+
+/* h1 Regular Styling (Carousel Text) */
+.h1nonlogo {
+  color: rgb(58, 58, 58);
+}
+
+/* Regular Paragraph Text (Carousel) */
+.regtext {
+  color: rgb(58, 58, 58);
+}
+
+.links {
+  text-decoration: none;
+}
+
+.galh1 {
+  color: rgb(255, 255, 255);
+}
+
+.galp {
+  color: white;
+}
+
+.h1gallery {
+  color: #ffffff;
+}
+
+.pgallery {
+  color: rgb(255, 255, 255);
+}
+
+.h1price {
+  color: rgb(255, 255, 255);
+}
+
+.pprice {
+  color: rgb(255, 255, 255);
+  border-color: black;
+  border: 2px;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.divider {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pricingbackground {
+  background-color: rgba(0, 0, 0, 0.40);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 9px;
+}
+
+.cancellationsbackground {
+  background-color: rgba(0, 0, 0, 0.40);
+  border-radius: 9px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contacticons {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+  color: white;
+}
+
+.contactinstabutton {
+  border: 2px solid;
+  border-color: rgb(255, 0, 191);
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.0);
+  color: rgb(255, 0, 191);
+  position: relative;
+  top: 10px;
+  padding: 2px 4px;
+  transition-duration: 99ms;
+  transition-delay: 15ms;
+  font-size: 15px;
+}
+
+.contactinstabutton:hover {
+  background-color:rgb(255, 0, 191);
+  color: white;
+}
+
+.contactinstabutton:active {
+  background-color:rgb(94, 0, 70);
+  border-color: rgb(94, 0, 70);
+}

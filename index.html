@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blondie: Home</title>
+<link rel="icon" type="image/x-icon" href="/favicon-32x32.png">
+
+<!--Personal CSS-->
+<link rel="stylesheet" href="/styles.css">
+<!--Personal Script-->
+<script src="script.js"></script>
+<!--Bootstrap CSS & JS-->
+<link rel="stylesheet" href="/carousel.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--NAVBAR Styling-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Google Font Inclusions-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+  
+  <!--HEADER-->
+    <div class="topnav" id="myTopnav">
+      
+        <!--Logo-->
+        <a href="index" class="logo">blondie</a></li>
+        <!--Links-->
+        <a href="index" class="active">Home</a>
+        <a href="gallery">Gallery</a>
+        <a href="pricing">Pricing</a>
+        <!--Javascript Referred-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+
+
+<!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image:url('/homepics/mainpic.png')" loading="lazy">
+
+
+        <!--Carousel Slide #1-->
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="logomain">blondie</h1>
+            <h2 class="h2hometext">Hair Studio</h2>
+            <h3 class="h3hometext">Stony Plain, Alberta</h3>
+            <li class="blondielink"><a href="#icon-grid" button" class="button2">Book Today</button></a></li>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image:url('/homepics/gallerytop.png')" loading="lazy">
+
+        <!--Carousel Slide #2-->
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="h1gallery">Gallery</h1>
+            <p class="pgallery">Browse our gallery to see our past cuts & styles.</p>
+            <li class="blondielink"><a href="gallery" button" class="button2">Browse Gallery</button></a></li>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image:url('/homepics/pricepic.png');" loading="lazy">
+
+        <!-- Carousel Slide #3-->
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="h1price">Price List</h1>
+            <p class="pprice">View our competitive pricing list.<br> For all custom inquiries, contact us directly!</p>
+            <li class="blondielink"><a href="pricing" button type="button" class="button2">Pricing</button></a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- End Carousel -->
+
+
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+      </svg>
+      
+
+      <h2>Booking</h2>
+      <p>Book an apointment today! We will be happy to get you in at your earliest convenience.</p>
+      <p><a <button class="button3" href="#icon-grid">Book An Apointment »</button></a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+        <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+        <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+      </svg>
+
+      <h2>Gallery</h2>
+      <p>Browse our styles/cuts. Past and present! For a more up to date gallery, visit our Instagram!</p>
+      <p><a <button class="button3" href="gallery">Browse Gallery »</button></a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+      </svg>
+
+      <h2>Price List</h2>
+      <p>View our price list. If you require a custom quote, contact us!</p>
+      <p><a <button class="button3" href="pricing">View Pricing »</button></a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+  <!-- End text columns-->
+
+  <div class="b-example-divider"></div>
+
+  <!--Contact-->
+  <div class="container px-4 py-5" id="icon-grid">
+  <h2 class="pb-2">Contact Avery for booking</h2>
+  <p class="pb-2 border-bottom" id="contact">Send Avery an E-mail, call or text the number, or visit her at her Instagram for booking and inquiries</p>
+  
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+  <div class="col d-flex align-items-start">
+  <img class="contacticons" src="/envelope.svg" alt="email">
+  <div>
+  <h4 class="fw-bold mb-0">E-mail</h4>
+  <a>leinaverymarie@gmail.com</a>
+  </div>
+  </div>
+  <div class="col d-flex align-items-start">
+  <img class="contacticons" src="/phone.svg" alt="phone">
+  <div>
+  <h4 class="fw-bold mb-0">Phone</h4>
+  <a>(780)-915-7456</a>
+  </div>
+  </div>
+  <div class="col d-flex align-items-start">
+  <img class="contacticons" src="/instagram.svg" alt="instagram">
+  <div>
+  <h4 class="fw-bold mb-0">Instagram</h4>
+  <a href="https://www.instagram.com/blondiehairstudio" target="_blank" rel="noopener noreferrer" button class="contactinstabutton">@blondiehairstudio</button></a>
+  </div>
+  </div>
+  
+  </div>
+  </div>
+
+
+<!-- START THE FEATURETTES -->
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">About <span class="text-muted">Avery</span></h2>
+    <p class="lead">Avery has been doing hair for over a decade, having started her career with a certificate from Marvel Hair School. She has worked at several different salons, and now she has taken her talents home with her in her home salon. Her specialty is in blondes, and balayages, but she loves challenging herself with different cuts/colours, and styles. When Avery isn't in the salon she is busy living the family life, as she is a mom of 2.</p>
+  </div>
+  <div class="col-md-5">
+    <img src="/homepics/insta-wedding.png" loading="lazy" alt="" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect></svg>
+
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading">The latest styles/cuts/colours <span class="text-muted">And no big salon feel</span></h2>
+    <p class="lead">Take care of your hair in Avery's home salon. Maintain a homey feel, quiet and peaceful environment, and peace of mind knowing that you will be taken care of.</p>
+  </div>
+  <div class="col-md-5 order-md-1">
+    <img src="/homepics/instabrunette1.png" loading="lazy" alt="" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect></svg>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!--FOOTER-->
+<div class="d-flex justify-content-between py-4 my-4 p-5 border-top">
+<p>© Blondie Hair Studio<br>Phone (780)-915-7456<br>Email leinaverymarie@gmail.com</p>
+<ul class="list-unstyled d-flex">
+<a class="link-dark" href="https://www.instagram.com/blondiehairstudio" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg></a>
+</ul>
+</div>
+<!--END FOOTER-->
+
+
+</body>
+
+</html>
